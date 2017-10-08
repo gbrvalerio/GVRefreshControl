@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios, "9.0"
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
 
   s.xcconfig = { "ENABLE_STRICT_OBJC_MSGSEND" => "NO" }
   s.pod_target_xcconfig = {"ENABLE_STRICT_OBJC_MSGSEND" => "NO"}
-  s.compiler_flags = '-DOBJC_OLD_DISPATCH_PROTOTYPES=0'
+  s.compiler_flags = '-DOBJC_OLD_DISPATCH_PROTOTYPES=1'
   # s.dependency "JSONKit", "~> 1.4"
 
 end
