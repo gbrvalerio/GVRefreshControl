@@ -133,6 +133,7 @@ Pod::Spec.new do |s|
 
   s.xcconfig = { "ENABLE_STRICT_OBJC_MSGSEND" => "NO" }
   s.pod_target_xcconfig = {"ENABLE_STRICT_OBJC_MSGSEND" => "NO"}
+  s.compiler_flags = '-DOBJC_OLD_DISPATCH_PROTOTYPES=0'
   # s.dependency "JSONKit", "~> 1.4"
 
 end
