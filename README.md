@@ -15,7 +15,7 @@ On the ```ViewController.swift``` file, start by importing the module:
 ```swift
 import GVRefreshControl
 ```
-The model we will use is just an ```String``` array.``. Right below, we can declare our ```GVRefreshControl``` and the view we want to display while the load is happening:
+The model we will use is just an ```String``` array. Right below, we can declare our ```GVRefreshControl``` and the view we want to display while the load is happening:
 ```swift
 var model = ["0"]
 let refreshControl = GVRefreshControl()
