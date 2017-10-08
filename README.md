@@ -79,7 +79,8 @@ private func configureRefreshView() {
   }
 }
 ```
-After configuring the ```UITableView``` you should have something like it:
+After configuring the ```UITableView``` you should have something like this:
+
 ![](https://github.com/gbrvalerio/GVRefreshControl/blob/master/Resources/GVRefreshControl-tut.gif?raw=true)
 
 ## View Behaviours
