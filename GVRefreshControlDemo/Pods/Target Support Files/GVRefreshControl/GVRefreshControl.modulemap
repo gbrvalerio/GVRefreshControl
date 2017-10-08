@@ -1,0 +1,6 @@
+framework module GVRefreshControl {
+  umbrella header "GVRefreshControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

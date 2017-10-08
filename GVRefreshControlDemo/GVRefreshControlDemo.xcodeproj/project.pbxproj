@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		871D4B46C71113B525C568C8 /* Pods_GVRefreshControlDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26065EB1F34F4CF2E425E07 /* Pods_GVRefreshControlDemo.framework */; };
+		BE2310091F8A6EFB005449FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2310081F8A6EFB005449FD /* AppDelegate.swift */; };
+		BE23100B1F8A6EFB005449FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23100A1F8A6EFB005449FD /* ViewController.swift */; };
+		BE23100E1F8A6EFB005449FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE23100C1F8A6EFB005449FD /* Main.storyboard */; };
+		BE2310101F8A6EFB005449FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE23100F1F8A6EFB005449FD /* Assets.xcassets */; };
+		BE2310131F8A6EFB005449FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2310111F8A6EFB005449FD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2695E0E1F26520E682682F42 /* Pods-GVRefreshControlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVRefreshControlDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GVRefreshControlDemo/Pods-GVRefreshControlDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BE2310051F8A6EFB005449FD /* GVRefreshControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVRefreshControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2310081F8A6EFB005449FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE23100A1F8A6EFB005449FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE23100D1F8A6EFB005449FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE23100F1F8A6EFB005449FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2310121F8A6EFB005449FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE2310141F8A6EFB005449FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26065EB1F34F4CF2E425E07 /* Pods_GVRefreshControlDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GVRefreshControlDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EA57960CBEBDC5B591AFEB /* Pods-GVRefreshControlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVRefreshControlDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVRefreshControlDemo/Pods-GVRefreshControlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2310021F8A6EFB005449FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871D4B46C71113B525C568C8 /* Pods_GVRefreshControlDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B2A8B39C1C1D536C568D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C26065EB1F34F4CF2E425E07 /* Pods_GVRefreshControlDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE230FFC1F8A6EFB005449FD = {
+			isa = PBXGroup;
+			children = (
+				BE2310071F8A6EFB005449FD /* GVRefreshControlDemo */,
+				BE2310061F8A6EFB005449FD /* Products */,
+				C1E562735AA274B32C857D08 /* Pods */,
+				20B2A8B39C1C1D536C568D39 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2310061F8A6EFB005449FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2310051F8A6EFB005449FD /* GVRefreshControlDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2310071F8A6EFB005449FD /* GVRefreshControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE2310081F8A6EFB005449FD /* AppDelegate.swift */,
+				BE23100A1F8A6EFB005449FD /* ViewController.swift */,
+				BE23100C1F8A6EFB005449FD /* Main.storyboard */,
+				BE23100F1F8A6EFB005449FD /* Assets.xcassets */,
+				BE2310111F8A6EFB005449FD /* LaunchScreen.storyboard */,
+				BE2310141F8A6EFB005449FD /* Info.plist */,
+			);
+			path = GVRefreshControlDemo;
+			sourceTree = "<group>";
+		};
+		C1E562735AA274B32C857D08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9EA57960CBEBDC5B591AFEB /* Pods-GVRefreshControlDemo.debug.xcconfig */,
+				2695E0E1F26520E682682F42 /* Pods-GVRefreshControlDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2310041F8A6EFB005449FD /* GVRefreshControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2310171F8A6EFB005449FD /* Build configuration list for PBXNativeTarget "GVRefreshControlDemo" */;
+			buildPhases = (
+				29E910BA4345B98E6C2FEC3A /* [CP] Check Pods Manifest.lock */,
+				BE2310011F8A6EFB005449FD /* Sources */,
+				BE2310021F8A6EFB005449FD /* Frameworks */,
+				BE2310031F8A6EFB005449FD /* Resources */,
+				99FFEB272D3FCD7E89A9E278 /* [CP] Embed Pods Frameworks */,
+				A87D471337CEB167F4E19B70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GVRefreshControlDemo;
+			productName = GVRefreshControlDemo;
+			productReference = BE2310051F8A6EFB005449FD /* GVRefreshControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE230FFD1F8A6EFB005449FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Gabriel Bezerra Valério";
+				TargetAttributes = {
+					BE2310041F8A6EFB005449FD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE2310001F8A6EFB005449FD /* Build configuration list for PBXProject "GVRefreshControlDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE230FFC1F8A6EFB005449FD;
+			productRefGroup = BE2310061F8A6EFB005449FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2310041F8A6EFB005449FD /* GVRefreshControlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2310031F8A6EFB005449FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2310131F8A6EFB005449FD /* LaunchScreen.storyboard in Resources */,
+				BE2310101F8A6EFB005449FD /* Assets.xcassets in Resources */,
+				BE23100E1F8A6EFB005449FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E910BA4345B98E6C2FEC3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99FFEB272D3FCD7E89A9E278 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVRefreshControlDemo/Pods-GVRefreshControlDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A87D471337CEB167F4E19B70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVRefreshControlDemo/Pods-GVRefreshControlDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2310011F8A6EFB005449FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE23100B1F8A6EFB005449FD /* ViewController.swift in Sources */,
+				BE2310091F8A6EFB005449FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE23100C1F8A6EFB005449FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE23100D1F8A6EFB005449FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2310111F8A6EFB005449FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2310121F8A6EFB005449FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2310151F8A6EFB005449FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE2310161F8A6EFB005449FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE2310181F8A6EFB005449FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EA57960CBEBDC5B591AFEB /* Pods-GVRefreshControlDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GVRefreshControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gabrielvalerio.GVRefreshControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE2310191F8A6EFB005449FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2695E0E1F26520E682682F42 /* Pods-GVRefreshControlDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GVRefreshControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gabrielvalerio.GVRefreshControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2310001F8A6EFB005449FD /* Build configuration list for PBXProject "GVRefreshControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2310151F8A6EFB005449FD /* Debug */,
+				BE2310161F8A6EFB005449FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2310171F8A6EFB005449FD /* Build configuration list for PBXNativeTarget "GVRefreshControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2310181F8A6EFB005449FD /* Debug */,
+				BE2310191F8A6EFB005449FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE230FFD1F8A6EFB005449FD /* Project object */;
+}
