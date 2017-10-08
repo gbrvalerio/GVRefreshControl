@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		BE230FD91F8A614A005449FD /* GVRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BE230FD71F8A614A005449FD /* GVRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE230FE31F8A6164005449FD /* GVRefreshControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE230FDF1F8A6164005449FD /* GVRefreshControlDelegate.swift */; };
+		BE230FE41F8A6164005449FD /* MethodInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = BE230FE01F8A6164005449FD /* MethodInvoker.m */; };
+		BE230FE51F8A6164005449FD /* GVRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE230FE11F8A6164005449FD /* GVRefreshControl.swift */; };
+		BE230FE61F8A616E005449FD /* MethodInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = BE230FE21F8A6164005449FD /* MethodInvoker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE230FD41F8A614A005449FD /* GVRefreshControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GVRefreshControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE230FD71F8A614A005449FD /* GVRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVRefreshControl.h; sourceTree = "<group>"; };
 		BE230FD81F8A614A005449FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE230FDF1F8A6164005449FD /* GVRefreshControlDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVRefreshControlDelegate.swift; sourceTree = "<group>"; };
+		BE230FE01F8A6164005449FD /* MethodInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodInvoker.m; sourceTree = "<group>"; };
+		BE230FE11F8A6164005449FD /* GVRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVRefreshControl.swift; sourceTree = "<group>"; };
+		BE230FE21F8A6164005449FD /* MethodInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodInvoker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				BE230FD71F8A614A005449FD /* GVRefreshControl.h */,
+				BE230FE11F8A6164005449FD /* GVRefreshControl.swift */,
+				BE230FDF1F8A6164005449FD /* GVRefreshControlDelegate.swift */,
+				BE230FE21F8A6164005449FD /* MethodInvoker.h */,
+				BE230FE01F8A6164005449FD /* MethodInvoker.m */,
 				BE230FD81F8A614A005449FD /* Info.plist */,
 			);
 			path = GVRefreshControl;
@@ -59,6 +71,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE230FE61F8A616E005449FD /* MethodInvoker.h in Headers */,
 				BE230FD91F8A614A005449FD /* GVRefreshControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE230FE51F8A6164005449FD /* GVRefreshControl.swift in Sources */,
+				BE230FE31F8A6164005449FD /* GVRefreshControlDelegate.swift in Sources */,
+				BE230FE41F8A6164005449FD /* MethodInvoker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +275,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = GVRefreshControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.gabrielvalerio.GVRefreshControl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -279,12 +297,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = GVRefreshControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.gabrielvalerio.GVRefreshControl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

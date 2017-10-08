@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MethodInvoker.h"
 
 //! Project version number for GVRefreshControl.
 FOUNDATION_EXPORT double GVRefreshControlVersionNumber;
@@ -15,5 +16,3 @@ FOUNDATION_EXPORT double GVRefreshControlVersionNumber;
 FOUNDATION_EXPORT const unsigned char GVRefreshControlVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GVRefreshControl/PublicHeader.h>
-
-
